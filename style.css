@@ -1,0 +1,22 @@
+.cool-btn {
+    background-color: #2196F3; /* Blue background */
+    border: none; /* Remove borders */
+    color: #FFFFFF; /* White text */
+    padding: 15px 30px; /* More padding for a larger button */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transition effect */
+}
+
+.cool-btn:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Increase shadow effect on hover */
+}
+
+.cool-btn:active {
+    background-color: #1565C0; /* Even darker blue on click */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Reduce shadow effect on click */
+}
